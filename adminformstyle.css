@@ -1,0 +1,69 @@
+/* style.css */
+
+body {
+    background-image: url('../images/signup.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0; /* Remove default body margin */
+}
+
+.col-md-4 {
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    margin: auto; /* Center the container horizontally and vertically */
+    width: 70%; /* Set a width for the form container */
+    max-width: 400px; /* Set a maximum width for responsiveness */
+    padding: 40px;
+    
+    backdrop-filter: blur(50px); /* Apply a blur effect to the background */
+}
+
+form {
+   
+    backdrop-filter: blur(50px);
+}
+
+/* Add some padding to the form */
+.p-2 {
+    padding: 20px !important; /* Reduced padding for a more compact form */
+}
+
+/* Style the form labels */
+label {
+    font-weight: bold;
+    color: #0a2e19;
+}
+
+/* Style the form buttons */
+.btn {
+    margin-right: 20px;
+    transition: background-color 0.3s ease; /* Smooth transition for button hover effect */
+}
+
+/* Improve the visual appeal of buttons on hover */
+.btn:hover {
+    background-color: #2e7d32; /* Dark green background on hover */
+    color: #fff; /* White text on hover */
+}
+
+/* Google reCAPTCHA styles */
+.g-recaptcha {
+    margin-bottom: 20px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 767px) {
+    .my-5 {
+        margin-top: 20px;
+    }
+
+    .container {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+
+    .p-4 {
+        padding: 15px !important; /* Adjusted padding for a more compact form on smaller screens */
+    }
+}
